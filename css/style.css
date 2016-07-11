@@ -1,0 +1,416 @@
+/* line 5, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Downloads/compass.app.windows.1.29/compass.app/lib/ruby/compass_1.0/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../scss/style.scss */
+body {
+  font-family: Verdana;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 25px;
+  background-color: #f3f5f8;
+}
+
+/* line 14, ../scss/style.scss */
+p {
+  padding: 10px 0;
+  color: gray;
+}
+/* line 17, ../scss/style.scss */
+p a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* line 24, ../scss/style.scss */
+section .heading1, section.section1 .row4 h1, section.section2 .row5 h1, section.section2 .row5 .cols h2, section.section3 .col1 h1 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  line-height: 40px;
+  text-shadow: 0 0 1px grey;
+}
+/* line 30, ../scss/style.scss */
+section .circle-icon {
+  margin-top: 20px;
+}
+/* line 33, ../scss/style.scss */
+section .circle {
+  border: 3px solid grey;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  border-radius: 100%;
+}
+/* line 40, ../scss/style.scss */
+section .social ul li {
+  margin-top: 30px;
+  font-size: 1.4em;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  padding: 6px 4px 4px 4px;
+}
+/* line 50, ../scss/style.scss */
+section .social ul li a {
+  color: white;
+}
+/* line 56, ../scss/style.scss */
+section.header {
+  padding: 65px 90px 300px 90px;
+  background: #EEE url("../img/hero-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+/* line 60, ../scss/style.scss */
+section.header .row1 {
+  text-align: right;
+  padding: 0 10px;
+}
+/* line 63, ../scss/style.scss */
+section.header .row1 a {
+  color: darkgrey;
+  font-size: 2.8em;
+}
+/* line 68, ../scss/style.scss */
+section.header .row2 {
+  padding: 170px 0 0 0;
+}
+/* line 70, ../scss/style.scss */
+section.header .row2 h1 {
+  font-size: 2.7em;
+  letter-spacing: 12px;
+  opacity: 0.7;
+}
+/* line 74, ../scss/style.scss */
+section.header .row2 h1 span {
+  color: grey;
+}
+/* line 78, ../scss/style.scss */
+section.header .row2 p {
+  color: grey;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+/* line 82, ../scss/style.scss */
+section.header .row2 p i {
+  font-style: italic;
+}
+/* line 87, ../scss/style.scss */
+section.header .row3 {
+  padding-top: 60px;
+}
+/* line 89, ../scss/style.scss */
+section.header .row3 .button {
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #3dc9b3;
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+  display: inline-block;
+  border-width: 0 0 3px 0;
+  border-style: outset;
+  border-color: #3dc9b3;
+  border-radius: 6px;
+}
+/* line 107, ../scss/style.scss */
+section.section1 {
+  padding: 90px 90px 100px 90px;
+}
+/* line 112, ../scss/style.scss */
+section.section1 .row4 {
+  padding: 0 200px;
+}
+/* line 121, ../scss/style.scss */
+section.section2 {
+  padding: 90px 90px 100px 90px;
+  background-color: white;
+}
+/* line 125, ../scss/style.scss */
+section.section2 .row5 {
+  --border: 1px solid red;
+  padding: 0 15px;
+  overflow: auto;
+}
+/* line 130, ../scss/style.scss */
+section.section2 .row5 .cols {
+  width: 31.5%;
+  float: left;
+  background-color: white;
+  --border: 1px solid black;
+  padding: 0 10px 20px 10px;
+}
+/* line 138, ../scss/style.scss */
+section.section2 .row5 .cols .portfolio {
+  width: 95%;
+  height: 95%;
+}
+/* line 142, ../scss/style.scss */
+section.section2 .row5 .cols .icon {
+  width: 175px;
+  height: 175px;
+  border-radius: 100%;
+  color: white;
+  background-color: #3dc9b3;
+  font-size: 3.5em;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+/* line 151, ../scss/style.scss */
+section.section2 .row5 .cols .icon i {
+  margin: 65px;
+}
+/* line 157, ../scss/style.scss */
+section.section2 .row5 .cols h2 i {
+  display: block;
+  font-size: 1.4em;
+  padding-bottom: 15px;
+}
+/* line 160, ../scss/style.scss */
+section.section2 .row5 .cols h2 span {
+  font-size: 1em;
+  color: #3dc9b3;
+}
+/* line 167, ../scss/style.scss */
+section.section2 .row5 .cols .line {
+  width: 35px;
+  border-width: 2px;
+  border-color: #3dc9b3;
+  border-style: solid;
+  margin: 30px auto;
+}
+/* line 175, ../scss/style.scss */
+section.section2 .row5 .cols .social ul li {
+  font-size: 1.4em;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  padding: 6px 4px 4px 4px;
+}
+/* line 185, ../scss/style.scss */
+section.section2 .row5 .cols .social ul li a {
+  color: white;
+}
+/* line 196, ../scss/style.scss */
+section.section3 {
+  overflow: auto;
+  background: #EEE url("../img/iphone-bg.png") no-repeat center;
+}
+/* line 200, ../scss/style.scss */
+section.section3 .col1 {
+  padding: 120px 100px 165px 100px;
+  width: 34%;
+  float: right;
+  background-color: white;
+}
+/* line 211, ../scss/style.scss */
+section#section4 {
+  background: url("../img/plants-bg.jpg") fixed center;
+}
+/* line 213, ../scss/style.scss */
+section#section4 h3 {
+  color: white;
+  font-size: 3em;
+  line-height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+/* line 220, ../scss/style.scss */
+section#section4 h3 span {
+  display: block;
+  font-size: 0.7em;
+}
+/* line 224, ../scss/style.scss */
+section#section4 h3 span em {
+  font-style: italic;
+}
+/* line 229, ../scss/style.scss */
+section#section4 a {
+  background-color: #3dc9b3;
+  color: white;
+  display: inline block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+}
+/* line 241, ../scss/style.scss */
+section#section6 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 243, ../scss/style.scss */
+section#section6 a {
+  text-transform: uppercase;
+  padding: 0 40px;
+  text-decoration: none;
+  color: white;
+  line-height: 60px;
+  display: inline-block;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1px;
+}
+/* line 260, ../scss/style.scss */
+section#section8 {
+  background: url("../img/keyboard-bg.jpg") fixed center;
+}
+/* line 262, ../scss/style.scss */
+section#section8 .row8 {
+  position: relative;
+  font-size: 1.7em;
+  color: white;
+}
+/* line 265, ../scss/style.scss */
+section#section8 .row8 h1 {
+  line-height: 60px;
+  text-transform: uppercase;
+}
+/* line 267, ../scss/style.scss */
+section#section8 .row8 h1 span {
+  display: block;
+}
+/* line 271, ../scss/style.scss */
+section#section8 .row8 .input1 {
+  background-color: rgba(0, 12, 23, 0.4);
+  border-color: white;
+  height: 55px;
+  width: 360px;
+  border: 1px solid white;
+}
+/* line 278, ../scss/style.scss */
+section#section8 .row8 .submit {
+  background-color: #3dc9b3;
+  color: white;
+  opacity: 0.7;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: 1px solid #3dc9b3;
+  height: 55px;
+  width: 100px;
+}
+/* line 288, ../scss/style.scss */
+section#section8 .row8 .up-btn {
+  background-color: #3dc9b3;
+  color: white;
+  display: inline block;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  text-align: center;
+  padding: 10px;
+  bottom: -130px;
+  position: absolute;
+  opacity: 0.8;
+  left: 48%;
+}
+/* line 305, ../scss/style.scss */
+section#section5 {
+  background-color: #f3f5f8;
+}
+/* line 306, ../scss/style.scss */
+section#section5 .cols {
+  margin: 0 10px;
+  width: 29%;
+  padding-top: 30px;
+}
+
+/* line 313, ../scss/style.scss */
+footer {
+  padding: 40px 100px 80px 100px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 318, ../scss/style.scss */
+footer .left_row ul li {
+  display: inline-block;
+  float: left;
+}
+/* line 322, ../scss/style.scss */
+footer .left_row ul li a {
+  color: grey;
+  text-decoration: none;
+}
+/* line 327, ../scss/style.scss */
+footer .right_row {
+  float: right;
+  display: inline;
+}
+/* line 330, ../scss/style.scss */
+footer .right_row p {
+  color: white;
+}
+/* line 331, ../scss/style.scss */
+footer .right_row a {
+  text-decoration: none;
+  color: grey;
+}
